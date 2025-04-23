@@ -1,0 +1,12 @@
+{
+       "manifest_version": 3,
+       "name": "Desbravador Form Filler",
+       "version": "1.0",
+       "permissions": ["activeTab"],
+       "content_scripts": [
+         {
+           "matches": ["://.desbravador.com.br/*"],
+           "js": ["content.js"]
+         }
+       ]
+     }
